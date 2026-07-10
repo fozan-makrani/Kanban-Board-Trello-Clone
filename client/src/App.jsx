@@ -1,5 +1,5 @@
-import Board from './pages/Board';
-import UserSwitcher from './components/UserSwitcher';
+import Board from "./pages/Board";
+import UserSwitcher from "./components/UserSwitcher";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <span className="font-bold text-slate-800 text-lg">📋 KanbanBoard</span>
         <UserSwitcher />
       </header>
-      <main className="flex-1 overflow-hidden">
+      <main className="flex-1 overflow-y-auto md:overflow-hidden">
         <Board />
       </main>
     </div>
